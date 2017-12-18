@@ -1,0 +1,308 @@
+body {
+	background-color: #262626;
+  background: ur
+	margin-left: ;
+	margin-right: ;
+	/*border: 3px solid white;*/
+	padding: 10px 10px 10px 10px;
+	font-family: verdana, arial, sans-serif
+
+}
+
+html, body {
+  min-height:500%; 
+}
+
+h1, h2, h3 {
+	/*font-style: italic;*/
+	color: white;
+
+}
+
+header {
+  background-color: #CC0000;
+  padding: 0px 10px 0px 10px;
+  height: 108px;
+  border: solid white; 
+}
+
+#main-logo {
+  padding-top: 20px;
+}
+
+#guitar-logo {
+  height: 75px;
+  width: 105px;
+}
+
+
+
+#band {
+	color: #ff6600;
+}
+
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+.column {
+  display: table-cell;
+  margin: 10px 10px 0 0;
+  border: solid white; 
+  background-color: black;
+  /*display: table-cell;
+    background-color: black;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top; */
+}
+
+#welcome {
+  background-image: url("images/concert.jpg");
+  border: solid white;
+  margin-top: 20px;
+  color: white;
+}
+
+#welcome-p {
+  color: red;
+}
+
+.album {
+	color: #ff3300;
+  text-align: center; 
+}
+
+.album-2 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  display: inline;
+}
+
+.ghost {
+	width: 300px;
+	height: 200px;
+  padding-left: 20px;
+}
+
+#warp_riders {
+	width: 500px;
+	height: 500px;
+	border: 1px solid white;
+	padding: 1px;
+	text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+#tracklist {
+  text-align: center;
+  color: white;
+  display: inline;
+}
+
+.album_of_the_week {
+  text-align: center;
+}
+
+#editor_choice {
+  display: table-cell;
+  background:       black bottom right;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+#artist_spotlight {
+	display: table-cell;
+    background-color: black;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+#spotlight {
+  background-color: black;
+  border: solid white;
+}
+
+.reviews {
+	background-color: black;
+	border: solid white; 
+	padding: 0px 50px 115px 50px;
+  margin: 20px 0px 20px 0px;
+}
+
+.review-p {
+	padding-left: 10px;
+}
+
+.covers {
+	width: 200px;
+	height: 200px;
+	padding-right: 10px;
+	float: left;
+}
+
+.review-covers {
+  width: 400px;
+  height 400px;  
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.lists {
+  background-color: black;
+  border: solid white;
+  color: white;
+  margin: 20px 0px 20px 0px;
+}
+
+.list-covers {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px
+  padding-bottom: 20px;
+}
+
+}
+
+.links {
+	color: red;
+}
+
+p{
+	color: gray;
+}
+
+.rating {
+  text-align: center;
+  font-size: large; 
+  color: red;
+}
+
+.rank {
+  text-align: center;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: solid white;
+    /*position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.tab {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #666666;
+}
+
+.selected {
+  background-color: #111;
+}
+
+ol {
+  color: white;
+}
+
+#bottom-footer {
+  background-color: #CC0000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  font-size: 90%;
+
+  border: solid white;
+}
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.first-row {
+  display:flex;
+  justify-content:center;
+}
+.second-row {
+  display:flex;
+  justify-content:center;
+}
+.vertical {
+  /*display:flex;*/
+  /*justify-content:center;*/
+}
+.rows {
+  width: 250px;
+  height: 250px;
+
+}
+.img-album {
+  max-width:100%;
+  min-height: 15px;
+  float: left;
+  display: inline;
+  padding-bottom: 20px;
+}
+div:hover {
+  opacity:.9;
+}
+div:first-child {
+  margin-left:0vh;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  #main-logo, #guitar-logo {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  
+}
+ 
+
+

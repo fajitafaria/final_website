@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Final Project</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link type="text/css" rel="stylesheet" href="final.css">
+    	<link rel="stylesheet" type="text/css" href="final-mobile.css" media="screen and (max-width: 480px)">
+    	<link rel="stylesheet" type="text/css" href="final-desktop.css" media="screen and (min-width: 481px)">
+	</head>
+	<body>
+		<header>
+			<img id="main-logo" src="images/fajita-logo.png" alt="fajita music logo">
+			<img id="guitar-logo" src="images/guitar-logo.png" alt="guitar logo">		
+		</header>
+		
+		<nav>
+			<ul id="nav-bar">
+			  <li class="tab"><a class="selected" href="final_index.html">Home</a></li>
+			  <!--<li class="tab"><a href="about.html">About</a></li>-->
+			  <li class="tab"><a href="reviews.html">Reviews</a></li>
+			  <li class="tab"><a href="lists.html">Lists</a></li>
+			</ul>
+		</nav>
+	 <!--
+		<h2>Welcome</h2>
+			<p>This is a website dedicated to my favorite music. Music is a passion of mine and I would like to discuss and share my music recommendations.
+			   On this website, you'll find; album reviews, top 10's, band spotlights, etc. My music taste varies through several genres, but I mainly enjoy 
+			   rock and metal music. I hope I can introduce you to new music and artists that have influenced me. Most importantly, <strong>rock on!!</strong>
+		    </p>		
+	 -->
+		<div id="welcome">
+		    <h2>Welcome</h2>
+			<p id="welcome-p">This is a website dedicated to my favorite music. Music is a passion of mine and I would like to discuss and share my music recommendations.
+			   On this website, you'll find; album reviews, top 10's, band spotlights, etc. My music taste varies through several genres, but I mainly enjoy 
+			   rock and metal music. I hope I can introduce you to new music and artists that have influenced me. Most importantly, <strong>rock on!!</strong>
+		    </p>
+		</div>
+
+		<div id="tableContainer">
+			<div id="tableRow">
+				
+				<section class="column">
+					
+					<h2 class="album">Album of the Week</h2>
+	   		
+					<h3 class="album"><strong>The Sword</strong> - <em>Warp Riders</em></h3>
+	   		
+	   				<img id="warp_riders" src="images/warp_riders.jpg" alt="Warp Riders by The Sword">
+
+	   			
+		   			<div id="tracklist">
+		   				<h3>Track List</h3>
+		   				<ol>
+			   				<li>Acheron/Unearthing the Orb</li>
+			   				<li>Tres Brujas</li>
+			   				<li>Arrows in the Dark</li>
+			   				<li>The Chronomancer I: Hubris</li>
+			   				<li>Lawless Lands</li>
+			   				<li>Astraea's Dream</li>
+			   				<li>The Warp Riders</li>
+			   				<li>Night City</li>
+			   				<li>The Chronomancer II: Nemesis</li>
+			   				<li>(The Night the Sky Cried) Tears of Fire</li>
+		   				</ol>
+		   		    </div>
+	   				
+	   				<p> 
+	   					Another solid album by The Sword. My personal favorite songs on the album are
+	   					<cite>The Warp Riders</cite>, <cite>Night City</cite>, <cite>(The Night the Sky Cried) Tears of Fire</cite>.
+	   				</p>
+	   				<p class="rating">Final Rating: <u>3.5/5</u></p>
+
+				</section>
+
+
+				<div id="editor_choice" class="column">
+					<h2>Editor's Choice</h2>
+					<div id="first-row" class="rows">
+
+					<div class="rows">
+					  <a href="https://www.youtube.com/watch?v=RJlpWzeJIdE"> <img class="img-album" src="images/high_plains.jpg" alt="Youngblood Supercult"/></a>
+					</div>
+					<div class="rows">
+					  <a href="https://www.youtube.com/watch?v=927rDDlh4uw"> <img class="img-album" src="images/graveyard.jpg" alt="Graveyard" /></a>
+					</div>
+					<div class="rows">
+					  <a href="https://www.youtube.com/watch?v=alJI5DRwDWE"> <img class="img-album" src="images/night_creeper.jpg" alt="Uncle Acid" /></a>
+					</div>
+					<!--<div class="rows">
+					  <a href="https://www.youtube.com/watch?v=JkHQnTH-fgc"> <img class="img-album" src="images/stellar_prophecy.jpg"/></a>
+					</div>-->
+				</div>
+			
+			</div>
+				
+	    </div>
+		</div>		
+
+		<section id="artist_spotlight" class="column">
+					<h2>Artist Spotlight</h2>
+					<h3 id="band">Ghost</h3>
+					<img src="images/ghost-logo.gif" alt="Ghost band logo">
+					<img class="ghost" src="images/ghost.jpg" alt="Ghost B.C.">
+					<img class="ghost" src="images/ghost-live.jpg" alt="Ghost Live in Concert">
+					<p>Don't let their look fool you, Ghost is a great band. Ghost is a Swedish heavy metal band that was
+					 formed in Linköping, Sweden in 2006. They're known for theatric live performances and a Satanic theme. 
+					 They have an intimidating presence, but are actually much more charming than they look. Their music sounds 
+					 like Scooby-Doo music, but with sinister lyrics. They have a great gimmick and are becoming one of my all-time
+					 favorite bands. The band is led by Papa Emeritus (which is basically the Anti-Pope).
+					</p>
+					<a href="artist-spotlight.html" class="links">Continue here to read full artist spotlight</a>	
+
+		</section>
+
+
+
+
+
+	   <footer id="bottom-footer">
+	   &copy; 2017, Fajita Music
+       <br>
+       All trademarks and registered trademarks appearing on 
+       this site are the property of their respective owners.
+	   </footer>
+
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+	<script src = "events.js"></script>
+	
+	</body>
+</html>
